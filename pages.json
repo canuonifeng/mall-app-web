@@ -260,6 +260,14 @@
 					}
 				}
 			}
+		},
+		{
+			"path" : "pages/qrcode/qrcode",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"globalStyle": {

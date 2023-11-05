@@ -72,6 +72,7 @@
 			</view>
 			<!-- 浏览历史 -->
 			<view class="history-section icon">
+				<list-cell icon="icon-fenxiang2" iconColor="#5fcda2" title="我的二维码" @eventClick="navTo('/pages/qrcode/qrcode')"></list-cell>
 				<list-cell icon="icon-dizhi" iconColor="#5fcda2" title="地址管理" @eventClick="navTo('/pages/address/address')"></list-cell>
 				<list-cell icon="icon-lishijilu" iconColor="#e07472" title="我的足迹" @eventClick="navTo('/pages/user/readHistory')"></list-cell>
 				<list-cell icon="icon-shoucang" iconColor="#5fcda2" title="我的关注" @eventClick="navTo('/pages/user/brandAttention')"></list-cell>
